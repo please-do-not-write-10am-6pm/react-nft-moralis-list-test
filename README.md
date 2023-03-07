@@ -2,22 +2,37 @@
 
 ### _React Web3 NFT Listing Web Application using ReactJs, Thirdweb and opensea api and metamask wallet_
 
-### Learned from : [Clever Programmer](https://youtu.be/hhZtiytNaBQ)
-
-## Images
-
-<img src='./src/assets/Ds-1.png' />
-<img src='./src/assets/Ds-2.png' />
-
 **NOTE: It's not Mobile Responsive**
 
-## Run Locally
+## Task Description
 
-- Run this command to git clone. 
+You're tasked with implementing a feature that displays a list of NFTs ( Non-Fungible
+Tokens) of a given address.
+Requirements
 
-         https://github.com/aliaftabsheikh/React-NFT-App.git
+1. The list of NFTs should be displayed as a grid of cards, with each card displaying the NFT's details.
 
-- You are now in the dev environment and you can play around
+2. When a user clicks on a card, a modal should be displayed that shows more details about the NFT, such as its description and the owner's address.
+
+3. The modal should have a button that allows the user to purchase the NFT. Clicking the button should navigate them to the relevant OpenSea page.
+
+4. The design of the grid of cards and the modal is up to you, but it should be visually appealing and easy to use.
+
+## Evaluation Criteria
+
+Your code will be evaluated based on the following criteria:
+
+1. Correctness: Does your code fulfil the requirements listed above? Does it handle edge cases and error scenarios?
+
+2. Code quality: Is your code organised, easy to read, and maintainable? Do you use appropriate React patterns and libraries?
+
+3. User experience: Is your interface intuitive and easy to use? Does it provide clear feedback to the user?
+
+## Deadline
+
+You have 48 hours to complete this.
+If you have any questions or concerns, don't hesitate to reach out to us. We're looking
+forward to seeing what you come up with.
 
 ## Technologies Use
 
@@ -26,4 +41,3 @@
 - React js (Frontend)
 - Thirdweb (To mint NFTs and list on opensea)
 - Opensea (To fetch and List NFTs)
-- Metamask Wallet (To connect with Thirdweb)
