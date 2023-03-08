@@ -10,15 +10,14 @@ const PunkList = ({punkListData, setselectedPunk}) => {
       {punkListData.map((punk, index) => (
         <div
           onClick={() => {
-            setselectedPunk(punk.token_id)
+            setselectedPunk(punk)
           }}
           key={index}
         >
           <CollectionCard
             id={punk.token_id}
             name={punk.name}
-            traits={punk.traits}
-            image={punk.image_original_url}
+            traits={punk.amount}
           />
         </div>
       ))}
