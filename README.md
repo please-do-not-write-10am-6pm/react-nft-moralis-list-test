@@ -39,5 +39,5 @@ forward to seeing what you come up with.
 - HTML5
 - CSS3
 - React js (Frontend)
-- Thirdweb (To mint NFTs and list on opensea)
-- Opensea (To fetch and List NFTs)
+- Moralis (To mint NFTs and list on opensea)
+- Opensea (To show the NFT)
